@@ -1,14 +1,13 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import Header from '@components/layout/Header.vue'
+import Footer from '@components/layout/Footer.vue'
 </script>
 
 <template>
-  <header>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
-  </header>
-  <RouterView />
+  <div class="grid grid-rows-[auto_1fr_auto] min-h-dvh">
+    <Header />
+    <RouterView />
+    <Footer />
+  </div>
 </template>
