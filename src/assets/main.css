@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+@theme {
+  --color-kta-light-yellow: #fef3c7;
+  --color-kta-yellow: #fbbf24;
+  --color-kta-light-blue: #e0f2fe;
+  --color-kta-blue: #bae6fd;
+  --color-kta-light-purple: #78697e;
+  --color-kta-purple: #331b3b;
+  --color-kta-light-pink: #fee2e2;
+  --color-kta-pink: #fce7f3;
+}
