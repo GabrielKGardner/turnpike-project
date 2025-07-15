@@ -71,7 +71,7 @@ function openModal() {
                   id="message"
                   name="Message"
                   type="text"
-                  rows="3"
+                  rows="4"
                   class="p-4 border-1 border-kta-purple rounded-lg"
                 ></textarea>
               </div>
