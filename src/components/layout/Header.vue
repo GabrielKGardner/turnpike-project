@@ -5,8 +5,8 @@
       <nav class="flex gap-7">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About Us</RouterLink>
-        <RouterLink to="/services">Servies</RouterLink>
-        <RouterLink to="/contact">Contact Us</RouterLink>
+        <p class="cursor-not-allowed">Servies</p>
+        <p class="cursor-not-allowed">Contact Us</p>
       </nav>
     </div>
   </header>

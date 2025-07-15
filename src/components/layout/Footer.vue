@@ -5,10 +5,10 @@
         <p>© 2023 Dream Agency, Inc. All rights reserved</p>
       </div>
       <div class="px-2 leading-none">
-        <p>Privacy Policy</p>
+        <p class="cursor-not-allowed">Privacy Policy</p>
       </div>
       <div class="px-2 leading-none">
-        <p>Terms of Use</p>
+        <p class="cursor-not-allowed">Terms of Use</p>
       </div>
     </div>
   </footer>
