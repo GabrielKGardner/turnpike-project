@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import Button from '@components/ui/Button.vue'
 import { TransitionRoot, TransitionChild, Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
@@ -71,7 +71,7 @@ function openModal() {
                   id="message"
                   name="Message"
                   type="text"
-                  rows="3"
+                  rows="4"
                   class="p-4 border-1 border-kta-purple rounded-lg"
                 ></textarea>
               </div>

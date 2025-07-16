@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Modal from '@components/section/Modal.vue'
+import ContactModal from '@components/section/ContactModal.vue'
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import Modal from '@components/section/Modal.vue'
     </div>
     <div class="basis-6/10 flex flex-col justify-end gap-6">
       <p class="font-bold text-lg">GET IN TOUCH</p>
-      <Modal />
+      <ContactModal />
     </div>
   </div>
 </template>

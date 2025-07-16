@@ -10,13 +10,16 @@ import Button from '@components/ui/Button.vue'
       <h2 class="text-6xl text-kta-purple">
         <span class="font-bold">About Us<br /></span> Fake or <span class="highlight">Real</span>
       </h2>
-      <p class="whitespace-pre-wrap text-kta-light-purple">
-        {{
-          `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
-        }}
-      </p>
+      <div class="space-y-4 text-kta-light-purple">
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+          unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+          unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
       <Button text="EXPLORE MORE" color="purple" class="self-start" />
     </div>
   </div>
